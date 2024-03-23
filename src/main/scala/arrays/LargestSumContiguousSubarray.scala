@@ -1,7 +1,7 @@
 package arrays
 
 import scala.annotation.tailrec
-import main.utils._
+import main.assert._
 
 /**
  * @see https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/

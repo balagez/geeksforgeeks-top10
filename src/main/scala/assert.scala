@@ -1,6 +1,6 @@
 package main
 
-object utils {
+object assert {
 
   implicit class EqualsOps[T](val a: T) extends AnyVal {
     def ===(b: T): Unit = {

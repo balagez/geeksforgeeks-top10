@@ -1,6 +1,6 @@
 package arrays
 
-import main.utils._
+import main.assert._
 
 /**
  * @see https://www.geeksforgeeks.org/find-the-missing-number/
