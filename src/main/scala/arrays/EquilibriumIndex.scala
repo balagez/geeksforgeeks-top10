@@ -19,5 +19,7 @@ class EquilibriumIndex {
   apply(Vector(1, 2, 3)) === -1
   apply(Vector(1, 0, 1)) === 1
   apply(Vector(5, 0, 0, 0, 5)) === 1
+  apply(Vector(5, 1, 0, 1, 5)) === 2
+  apply(Vector(4, 1, 1, 0, 1, 5)) === 3
   apply(Vector(-7, 1, 5, 2, -4, 3, 0)) === 3
 }
