@@ -2,9 +2,14 @@ package main
 
 import scala.reflect.runtime.{universe => ru}
 
-// https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/
+/**
+ * https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/
+ */
 object Main {
 
+  /**
+   * sbt> run namespace.ClassName
+   */
   def main(args: Array[String]): Unit = {
     args match {
       case Array(className) =>

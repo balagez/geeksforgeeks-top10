@@ -2,7 +2,9 @@ package arrays
 
 import main.utils._
 
-// https://www.geeksforgeeks.org/trapping-rain-water/
+/**
+ * @see https://www.geeksforgeeks.org/trapping-rain-water/
+ */
 class TrappingRainWater {
 
   def apply(in: List[Int]): Int = {

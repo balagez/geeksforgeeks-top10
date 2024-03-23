@@ -1,9 +1,11 @@
 package arrays
 
-import annotation.tailrec
+import scala.annotation.tailrec
 import main.utils._
 
-// https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+/**
+ * @see https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+ */
 class LargestSumContiguousSubarray {
 
   @tailrec final def apply(

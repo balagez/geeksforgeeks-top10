@@ -2,7 +2,9 @@ package arrays
 
 import main.utils._
 
-// https://www.geeksforgeeks.org/find-the-missing-number/
+/**
+ * @see https://www.geeksforgeeks.org/find-the-missing-number/
+ */
 class FindMissingNumber {
 
   def apply(in: List[Int]): Int = {
